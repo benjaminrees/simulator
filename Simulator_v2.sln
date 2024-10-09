@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29709.97
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Simulator_v2", "Simulator_v2\Simulator_v2.vcxproj", "{C5F80730-F44F-4478-BDAE-6634EFC2CA88}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "mcp_can-0.0.0", "Libraries\mcp_can\0.0.0\mcp_can\mcp_can-0.0.0.vcxitems", "{A18B5D7E-C66A-46F7-8B92-8DFBD962F362}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "mcp_can_dfs-0.0.0", "Libraries\mcp_can_dfs\0.0.0\mcp_can_dfs\mcp_can_dfs-0.0.0.vcxitems", "{B8B8C5FF-66F1-4712-8F0A-FC3B02E6383D}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "EEPROM-2.0", "Libraries\EEPROM\2.0\EEPROM\EEPROM-2.0.vcxitems", "{35D79FFE-C452-4AC5-BE61-2ADD0F2AA8BB}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SPI-1.0", "Libraries\SPI\1.0\SPI\SPI-1.0.vcxitems", "{EFC4666E-7EFE-4E18-9934-305E6AAD22BA}"
+EndProject
+Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		Libraries\EEPROM\2.0\EEPROM\EEPROM-2.0.vcxitems*{35d79ffe-c452-4ac5-be61-2add0f2aa8bb}*SharedItemsImports = 9
+		Libraries\mcp_can\0.0.0\mcp_can\mcp_can-0.0.0.vcxitems*{a18b5d7e-c66a-46f7-8b92-8dfbd962f362}*SharedItemsImports = 9
+		Libraries\mcp_can_dfs\0.0.0\mcp_can_dfs\mcp_can_dfs-0.0.0.vcxitems*{b8b8c5ff-66f1-4712-8f0a-fc3b02e6383d}*SharedItemsImports = 9
+		Libraries\EEPROM\2.0\EEPROM\EEPROM-2.0.vcxitems*{c5f80730-f44f-4478-bdae-6634efc2ca88}*SharedItemsImports = 4
+		Libraries\mcp_can\0.0.0\mcp_can\mcp_can-0.0.0.vcxitems*{c5f80730-f44f-4478-bdae-6634efc2ca88}*SharedItemsImports = 4
+		Libraries\mcp_can_dfs\0.0.0\mcp_can_dfs\mcp_can_dfs-0.0.0.vcxitems*{c5f80730-f44f-4478-bdae-6634efc2ca88}*SharedItemsImports = 4
+		Libraries\SPI\1.0\SPI\SPI-1.0.vcxitems*{c5f80730-f44f-4478-bdae-6634efc2ca88}*SharedItemsImports = 4
+		Libraries\SPI\1.0\SPI\SPI-1.0.vcxitems*{efc4666e-7efe-4e18-9934-305e6aad22ba}*SharedItemsImports = 9
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C5F80730-F44F-4478-BDAE-6634EFC2CA88}.Debug|x86.ActiveCfg = Debug|Win32
+		{C5F80730-F44F-4478-BDAE-6634EFC2CA88}.Debug|x86.Build.0 = Debug|Win32
+		{C5F80730-F44F-4478-BDAE-6634EFC2CA88}.Release|x86.ActiveCfg = Release|Win32
+		{C5F80730-F44F-4478-BDAE-6634EFC2CA88}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E86234CF-E93D-4578-BE1E-A002599C3C0F}
+	EndGlobalSection
+EndGlobal
